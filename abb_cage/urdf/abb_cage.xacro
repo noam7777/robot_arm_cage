@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+
+<robot name="abb_cage" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find abb_cage)/urdf/abb_cage_macro.xacro"/>
+  <xacro:abb_cage prefix=""/>
+</robot>

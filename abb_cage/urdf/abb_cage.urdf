@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<robot name="abb_cage_bgu" xmlns:xacro="http://ros.org/wiki/xacro">
+
+<link name="cage">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://abb_cage/meshes/visual/full_cag_assmbly2.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.7372549 0.3490196 0.1607843 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://abb_cage/meshes/visual/full_cag_assmbly2.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </collision>
+  </link>
+

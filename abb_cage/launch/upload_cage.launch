@@ -1,0 +1,7 @@
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find abb_cage)/urdf/abb_cage.xacro'" />
+  
+  <node name="cage_tf_brodcaster" pkg="abb_cage" type="cage_tf_brodcaster.py">
+  </node>
+
+</launch>
